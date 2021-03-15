@@ -32,7 +32,7 @@
 3. **课程信息管理**，课程相关管理。
 4. 公告管理，发布最新的教务动态，或者教务系统公告。
 
-&emsp;&emsp;采用**前后端分离**式开发，采用现阶段流行技术实现，例如：SpringBoot、Spring、SpringMVC、MyBatis。
+&emsp;&emsp;采用**前后端分离**式开发，采用现阶段流行技术实现，例如：Vue、axios、nginx。
 
 - **核心功能**：
 
@@ -43,30 +43,12 @@
 
 ## 技术选型
 
-#### 后端部分
-
-- SpringBoot，作为整个管理容器
-- SpringSecurity，一个强大的权限控制框架，与Spring的兼容性好一些相比于shiro。
-- MyBatis，ORM框架
-- PageHelper，分页插件
-- Hibernate-Validator，验证框架
-- ActiveMQ，消息队列
-- Redis，分布式缓存
-- Druid，数据库连接池
-- FastJson，json序列化方式
-- easyexcel，操作excel
-- Lombok，简化pojo对象
-- OSS，对象云存储，采用腾讯云对象存储
-
 #### 前端部分
 
 - node.js
-
 - Vue
 - ElementUI，前端组件库
 - axios，异步请求，比ajax要轻量级一些。
-- echarts，报表
-- wangeditor，网页轻量级编辑器
 - router，路由配置
 - store，全局对象存储
 
@@ -129,4 +111,4 @@
 
 ## 展望与总结
 
-&emsp;&emsp;本次项目采用单体应用架构，学习**分布式理论**与**微服务**之后，有时间可以本项目的架构进行转型，如果有志同道合的朋友，可以一起开发。
+&emsp;&emsp;本次项目加深了我对Vue的理解，体会到MVVM、双向数据绑定的优势，提高了我对前端开发的兴趣，这次我主要负责前端部分的实现，后期打算深入的了解**node.js**，对后端代码进行重构，独自开发一个完整的前后端分离式项目。
