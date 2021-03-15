@@ -46,12 +46,11 @@
 #### 前端部分
 
 - node.js
-- Vue
+- Vue:个人博客中系统的总结了Vue中的一些知识点，欢迎大家点击查看。[一起学习Vue吧!](http://xqlove.xyz/%E4%B8%80%E8%B5%B7%E5%AD%A6%E4%B9%A0Vue%E5%90%A7/)
 - ElementUI，前端组件库
-- axios，异步请求，比ajax要轻量级一些。
+- axios，异步请求，比ajax要轻量级一些。有对axios感兴趣的朋友可以看看这篇博客。[axios](http://xqlove.xyz/axios/)
 - router，路由配置
 - store，全局对象存储
-
 ---
 
 ## 运行截图
